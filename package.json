@@ -2,11 +2,16 @@
   "name": "form",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://adityajani11.github.io/form.git",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
+    "deploy": "gh-pages -d .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
